@@ -14,9 +14,5 @@ for i in range(7):
     for d in range(8):
         robotArm.moveLeft()
 
-
-
-
-
 # Na jouw code wachten tot het sluiten van de window:
 robotArm.wait()
