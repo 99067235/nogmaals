@@ -4,7 +4,9 @@
 # function of program: berekenen
 # structure of program: 
 
-toPay = int(float(input('Amount to pay: '))* 100) # De input wordt omgezet naar centen
+# BABABOOEY
+
+toPay = int(float(input('Amount to pay: ')) * 100) # De input wordt omgezet naar centen
 paid = int(float(input('Paid amount: ')) * 100) # De input wordt omgezet naar centen
 change = paid - toPay # Python trekt het te betalen bedrag af van het betaalde bedrag
 
@@ -41,3 +43,5 @@ if change > 0: # Hij controleert of het hoger is dan 0
   print('Change not returned: ', str(change) + ' cents')
 else:
   print('done')
+
+# toegevoegd
